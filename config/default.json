@@ -1,0 +1,3 @@
+{
+    "mongoURL": "mongodb+srv://corona123:corona123@devconnector-eridi.mongodb.net/test?retryWrites=true&w=majority"
+}
