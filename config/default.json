@@ -1,4 +1,6 @@
 {
     "mongoURL": "mongodb+srv://corona123:corona123@devconnector-eridi.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "coronavirus"
+    "jwtSecret": "coronavirus",
+    "githubCLientId": "8045b818fc1311f777da",
+    "gitHubSecret": "1b2d6275149db244ace1fb92eee87d9fe4320011"
 }
