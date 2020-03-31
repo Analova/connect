@@ -7,9 +7,9 @@ const Post = require("../../models/Post");
 const Profile = require("../../models/Profile");
 const User = require("../../models/User");
 
-// @route  POST api/posts
-// @desc   Create a post
-// @access Private
+// @route    POST api/posts
+// @desc     Create a post
+// @access   Private
 router.post(
   "/",
   [
@@ -33,7 +33,7 @@ router.post(
         text: req.body.text,
         name: user.name,
         avatar: user.avatar,
-        user: req.user.id
+        user: req.user.id 
       });
 
       const post = await newPost.save();
@@ -45,6 +45,7 @@ router.post(
     }
   }
 );
+
 // @route  Get api/posts
 // @desc   Get all posts
 // @access Private
